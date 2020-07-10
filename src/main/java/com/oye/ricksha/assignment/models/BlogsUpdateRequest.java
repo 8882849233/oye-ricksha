@@ -1,4 +1,4 @@
-package com.knoldus.blogs.models;
+package com.oye.ricksha.assignment.models;
 
 import com.couchbase.client.java.repository.annotation.Field;
 import lombok.Data;

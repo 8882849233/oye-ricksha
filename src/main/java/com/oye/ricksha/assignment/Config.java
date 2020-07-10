@@ -1,4 +1,4 @@
-package com.knoldus.blogs;
+package com.oye.ricksha.assignment;
 
 
 import org.springframework.context.annotation.Configuration;
@@ -7,6 +7,9 @@ import org.springframework.data.couchbase.config.AbstractCouchbaseConfiguration;
 import java.util.Collections;
 import java.util.List;
 
+/**
+ * The type Config.
+ */
 @Configuration
 public class Config extends AbstractCouchbaseConfiguration {
     
@@ -17,17 +20,17 @@ public class Config extends AbstractCouchbaseConfiguration {
     
     @Override
     protected String getBucketName() {
-        return "blog";
+        return "test";
     }
     
     @Override
     protected String getBucketPassword() {
-        return "knoldus";
+        return "password";
     }
     
     @Override
     protected String getUsername() {
-        return "Administrator";
+        return "admin";
     }
 }
 
