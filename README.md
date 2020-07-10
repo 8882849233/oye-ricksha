@@ -1,6 +1,6 @@
 # oye-ricksha-assignment
 
-Tech Suits: maven, java 1.8, spring-boot, couchbase, restFul and lombok
+Tech stack: maven, java 1.8, spring-boot, couchbase, restFul and lombok
 
 How to run:
 
